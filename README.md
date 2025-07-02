@@ -2,5 +2,5 @@ The emergency record contains all the important medical information needed in si
 The emergency record combines key administrative and clinicel data such as patient details, emergency contacts, medication, allergies, vaccinations, implants, diognose, CPR status and references to living wills and other relevant documents.
 
 * Concept on witch this implementation guide is based:
-   * [Konzept eNotfallpass](https://www.e-health-suisse.ch/upload/documents/Konzept_eNotfallpass_DE.pdf)
+   * [Konzept eNotfallpass (DE)](https://www.e-health-suisse.ch/upload/documents/Konzept_eNotfallpass_DE.pdf)
    * [Concept  eFicheurgence (FR)](https://www.e-health-suisse.ch/upload/documents/Konzept_Notfallpass_FR.pdf)
