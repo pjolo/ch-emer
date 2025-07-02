@@ -3,19 +3,19 @@
 
 # Package name
 # https://confluence.hl7.org/display/FHIR/NPM+Package+Specification#NPMPackageSpecification-Packagename
-id: ch.fhir.ig.ch-ig
-canonical: http://fhir.ch/ig/ch-ig
-name: CH_IG
-title: "CH IG (R4)"
-description: Implementation Guide CH IG (R4) for ...
+id: ch.fhir.ig.ch-emer
+canonical: http://fhir.ch/ig/ch-emer
+name: CH_EMER
+title: "CH EMER (R4)"
+description: FHIR implementation Guide for the emergency record in Switzerland
 status: draft
 license: CC0-1.0
 copyright: CC0-1.0
 jurisdiction: urn:iso:std:iso:3166#CHE
-date: 2025-06-05
-version: 1.2.3 # 1.2.2 published in May 2025
+date: 2025-07-02
+version: 1.0.0-ci-build # 1.2.2 published in May 2025
 fhirVersion: 4.0.1
-copyrightYear: 2024+
+copyrightYear: 2025+
 releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 publisher:
   name: HL7 Switzerland
@@ -31,6 +31,9 @@ dependencies:
     version: 6.4.0 
   ch.fhir.ig.ch-core: 6.0.0-ballot
   hl7.fhir.extensions.r5: 4.0.1
+  ch.fhir.ig.ch-ips:
+    uri: http://fhir.ch/ig/ch-ips
+    version: current
 # Extensions for converting between versions: https://build.fhir.org/versions.html#extensions
 # FHIR Cross-Version Mapping Pack: https://build.fhir.org/ig/HL7/fhir-cross-version/
 #  hl7.fhir.uv.xver-r5.r4: 0.0.1-snapshot-1
@@ -38,15 +41,27 @@ dependencies:
 pages:
   index.md:
     title: Home
+  document.md:
+    title: Document
+  usecae-german.md:
+    title: Anwendungsfälle
+  usecase-french.md:
+    title: Cas d'application
   profiles.md:
     title: Profiles
   extensions.md:
     title: Extensions
   terminology.md:
     title: Terminology
+  changelog.md:
+    title: Changelog
 
 menu:
   Home: index.html
+  Document: document.html
+  Use Cases:
+    German: usecase-german.html
+    French: usecase-french.html
   Profiles: profiles.html
   Extensions: extensions.html
   Terminology: terminology.html
