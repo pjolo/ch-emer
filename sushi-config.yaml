@@ -43,7 +43,7 @@ pages:
     title: Home
   document.md:
     title: Document
-  usecae-german.md:
+  usecase-german.md:
     title: Anwendungsfälle
   usecase-french.md:
     title: Cas d'application

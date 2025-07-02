@@ -1,0 +1,21 @@
+canonical: http://fhir.ch/ig/ch-emer
+fhirVersion: 4.0.1
+FSHOnly: true
+applyExtensionMetadataToRoot: false
+id: ch.fhir.ig.ch-emer
+name: CH_EMER
+status: draft
+version: 1.0.0-ci-build
+dependencies:
+  hl7.terminology.r4:
+    version: 6.4.0
+    uri: http://terminology.hl7.org/ImplementationGuide/hl7.terminology
+    id: hl7_terminology_r4
+  ch.fhir.ig.ch-core:
+    version: 6.0.0-ballot
+    uri: http://fhir.ch/ig/ch-core/ImplementationGuide/ch.fhir.ig.ch-core
+    id: ch_fhir_ig_ch_core
+  ch.fhir.ig.ch-ips:
+    version: current
+    uri: http://fhir.ch/ig/ch-ips
+    id: ch_fhir_ig_ch_ips
